@@ -1,0 +1,8 @@
+data/
+outputs/data/
+artifacts/models/*.joblib
+!artifacts/models/M6_lightgbm_tuned.joblib
+_pycache_/
+*.egg-info/
+.ipynb_checkpoints/
+.venv/

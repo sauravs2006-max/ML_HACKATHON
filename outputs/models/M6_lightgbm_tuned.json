@@ -1,0 +1,28 @@
+{
+  "model": "M6_lightgbm_tuned",
+  "family": "Boosting",
+  "config": "{\"n_estimators\": 800, \"learning_rate\": 0.05653381629760746, \"num_leaves\": 18, \"min_child_samples\": 13, \"subsample\": 0.9198870986647855, \"colsample_bytree\": 0.7738839201893054, \"reg_lambda\": 0.020089366106018892}",
+  "cv_macro_f1": 0.9353830199493389,
+  "cv_macro_f1_std": 0.022555802260277345,
+  "cv_top1": 0.8874667013897005,
+  "cv_folds": [
+    0.9319,
+    0.9422,
+    0.908,
+    0.9691,
+    0.9258
+  ],
+  "train_macro_f1": 0.9582662264468236,
+  "train_top1": 0.9265852175355188,
+  "test_top1_acc": 0.8878914405010438,
+  "test_macro_f1": 0.9353253758124305,
+  "test_precision": 0.8878914405010438,
+  "test_recall": 0.8911938812928912,
+  "test_cand_accuracy": 0.967738979711827,
+  "test_log_loss": 0.08332291693194642,
+  "test_route_continuity": 0.7539901353092575,
+  "test_route_f1": 0.886703459598835,
+  "train_time_s": 7.008635997772217,
+  "cv_time_s": 33.872735023498535,
+  "infer_ms_per_point": 0.10824396366366265
+}

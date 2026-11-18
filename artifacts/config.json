@@ -1,0 +1,31 @@
+{
+  "model_file": "models/M6_lightgbm_tuned.joblib",
+  "K": 8,
+  "radius": 100.0,
+  "features": [
+    "dist",
+    "rank",
+    "dist_gap",
+    "dist_ratio",
+    "head_diff",
+    "move",
+    "speed",
+    "dt",
+    "frac",
+    "alen",
+    "n_cand",
+    "n_cand30",
+    "ctx_prev",
+    "ctx_next",
+    "ctx_mean",
+    "out_deg",
+    "in_deg",
+    "has_rev"
+  ],
+  "hmm": {
+    "beta": 5.0,
+    "emis_weight": 0.25,
+    "limit": 2000.0,
+    "gap_break": 120.0
+  }
+}
