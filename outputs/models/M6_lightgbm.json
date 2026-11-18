@@ -1,0 +1,28 @@
+{
+  "model": "M6_lightgbm",
+  "family": "Boosting",
+  "config": "lr=0.05, 400 trees, num_leaves=31",
+  "cv_macro_f1": 0.935625128642519,
+  "cv_macro_f1_std": 0.022372730400986845,
+  "cv_top1": 0.8878891289813773,
+  "cv_folds": [
+    0.9329,
+    0.9413,
+    0.9077,
+    0.969,
+    0.9271
+  ],
+  "train_macro_f1": 0.9548235960992464,
+  "train_top1": 0.920725302670131,
+  "test_top1_acc": 0.8874739039665971,
+  "test_macro_f1": 0.9350804541587023,
+  "test_precision": 0.8874739039665971,
+  "test_recall": 0.8907747917648908,
+  "test_cand_accuracy": 0.9676168078006765,
+  "test_log_loss": 0.08325421420809284,
+  "test_route_continuity": 0.7530500208831576,
+  "test_route_f1": 0.8851951331081723,
+  "train_time_s": 4.468777179718018,
+  "cv_time_s": 20.84049654006958,
+  "infer_ms_per_point": 0.06758283224882312
+}

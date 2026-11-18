@@ -1,0 +1,28 @@
+{
+  "model": "M7_mlp",
+  "family": "Neural network",
+  "config": "64-32 ReLU, adam, lr=1e-3, early stopping",
+  "cv_macro_f1": 0.9297080518814983,
+  "cv_macro_f1_std": 0.02323876544355312,
+  "cv_top1": 0.8778206323813237,
+  "cv_folds": [
+    0.9251,
+    0.9357,
+    0.9024,
+    0.9653,
+    0.9201
+  ],
+  "train_macro_f1": 0.9431965992649761,
+  "train_top1": 0.9009342694455194,
+  "test_top1_acc": 0.8765135699373695,
+  "test_macro_f1": 0.9286512607483405,
+  "test_precision": 0.8765135699373695,
+  "test_recall": 0.8797736916548797,
+  "test_cand_accuracy": 0.9644097951329765,
+  "test_log_loss": 0.09326169686835195,
+  "test_route_continuity": 0.7376145991838252,
+  "test_route_f1": 0.877439046461739,
+  "train_time_s": 18.621553897857666,
+  "cv_time_s": 62.42089581489563,
+  "infer_ms_per_point": 0.004359625575437924
+}

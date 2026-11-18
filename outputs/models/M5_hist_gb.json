@@ -1,0 +1,28 @@
+{
+  "model": "M5_hist_gb",
+  "family": "Boosting",
+  "config": "lr=0.1, max_iter=300, max_leaf_nodes=31",
+  "cv_macro_f1": 0.9344719558560977,
+  "cv_macro_f1_std": 0.023093581929670867,
+  "cv_top1": 0.8859157213854548,
+  "cv_folds": [
+    0.9315,
+    0.9408,
+    0.906,
+    0.9689,
+    0.9252
+  ],
+  "train_macro_f1": 0.9466392296125534,
+  "train_top1": 0.9067941843109072,
+  "test_top1_acc": 0.8839770354906055,
+  "test_macro_f1": 0.9330292353087297,
+  "test_precision": 0.8839770354906055,
+  "test_recall": 0.8872649169678872,
+  "test_cand_accuracy": 0.9665936180447913,
+  "test_log_loss": 0.08589725590811816,
+  "test_route_continuity": 0.7456015542411669,
+  "test_route_f1": 0.882289605931734,
+  "train_time_s": 2.203490734100342,
+  "cv_time_s": 15.492503881454468,
+  "infer_ms_per_point": 0.014052834042925427
+}

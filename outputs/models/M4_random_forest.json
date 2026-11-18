@@ -1,0 +1,28 @@
+{
+  "model": "M4_random_forest",
+  "family": "Ensemble (bagging)",
+  "config": "300 trees, max_depth=16, min_samples_leaf=5",
+  "cv_macro_f1": 0.9334604841280415,
+  "cv_macro_f1_std": 0.022207357214938127,
+  "cv_top1": 0.8841893454720399,
+  "cv_folds": [
+    0.9329,
+    0.9394,
+    0.904,
+    0.9653,
+    0.9257
+  ],
+  "train_macro_f1": 0.9579576888213331,
+  "train_top1": 0.9260600364862623,
+  "test_top1_acc": 0.8755741127348643,
+  "test_macro_f1": 0.9281001870274523,
+  "test_precision": 0.8755741127348643,
+  "test_recall": 0.8788307402168788,
+  "test_cand_accuracy": 0.964134908332888,
+  "test_log_loss": 0.08843798889987436,
+  "test_route_continuity": 0.7452529229570118,
+  "test_route_f1": 0.875631503268829,
+  "train_time_s": 88.8392059803009,
+  "cv_time_s": 337.50810146331787,
+  "infer_ms_per_point": 0.07141584643242503
+}
