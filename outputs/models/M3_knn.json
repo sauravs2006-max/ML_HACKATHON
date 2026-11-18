@@ -1,0 +1,28 @@
+{
+  "model": "M3_knn",
+  "family": "Instance-based",
+  "config": "k=25, distance-weighted, scaled",
+  "cv_macro_f1": 0.923679839732937,
+  "cv_macro_f1_std": 0.026388813763735093,
+  "cv_top1": 0.8674485380685061,
+  "cv_folds": [
+    0.9263,
+    0.9337,
+    0.8871,
+    0.9586,
+    0.9127
+  ],
+  "train_macro_f1": 0.998603461274096,
+  "train_top1": 0.9952457294488363,
+  "test_top1_acc": 0.8587160751565762,
+  "test_macro_f1": 0.9182114752581814,
+  "test_precision": 0.8587160751565762,
+  "test_recall": 0.8619100005238619,
+  "test_cand_accuracy": 0.9592022174201874,
+  "test_log_loss": 0.15261774278686854,
+  "test_route_continuity": 0.7219382234411439,
+  "test_route_f1": 0.859107470065342,
+  "train_time_s": 0.07832813262939453,
+  "cv_time_s": 77.75086259841919,
+  "infer_ms_per_point": 2.6334776883334357
+}

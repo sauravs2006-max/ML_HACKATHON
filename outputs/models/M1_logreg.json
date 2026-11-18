@@ -1,0 +1,28 @@
+{
+  "model": "M1_logreg",
+  "family": "Linear",
+  "config": "C=1.0, L2, class_weight=balanced, scaled",
+  "cv_macro_f1": 0.9260955836676248,
+  "cv_macro_f1_std": 0.024076122753773972,
+  "cv_top1": 0.8716085515881129,
+  "cv_folds": [
+    0.9258,
+    0.9346,
+    0.8922,
+    0.9585,
+    0.9193
+  ],
+  "train_macro_f1": 0.9269902545155326,
+  "train_top1": 0.8733484438056277,
+  "test_top1_acc": 0.8618475991649269,
+  "test_macro_f1": 0.9200483876611418,
+  "test_precision": 0.8618475991649269,
+  "test_recall": 0.865053171983865,
+  "test_cand_accuracy": 0.9601185067538159,
+  "test_log_loss": 0.2198418127107954,
+  "test_route_continuity": 0.7164497121051175,
+  "test_route_f1": 0.8480756792837685,
+  "train_time_s": 0.46184468269348145,
+  "cv_time_s": 2.450352191925049,
+  "infer_ms_per_point": 0.0008370906176796039
+}

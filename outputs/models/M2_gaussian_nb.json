@@ -1,0 +1,28 @@
+{
+  "model": "M2_gaussian_nb",
+  "family": "Probabilistic",
+  "config": "var_smoothing=1e-9",
+  "cv_macro_f1": 0.9143074123899464,
+  "cv_macro_f1_std": 0.019271258194999787,
+  "cv_top1": 0.8516563629324974,
+  "cv_folds": [
+    0.9062,
+    0.9196,
+    0.8903,
+    0.9428,
+    0.9126
+  ],
+  "train_macro_f1": 0.9157692282411182,
+  "train_top1": 0.8542484382774062,
+  "test_top1_acc": 0.8351774530271399,
+  "test_macro_f1": 0.9044040170292611,
+  "test_precision": 0.8351774530271399,
+  "test_recall": 0.8382838283828383,
+  "test_cand_accuracy": 0.9523147759290792,
+  "test_log_loss": 0.9440347022001088,
+  "test_route_continuity": 0.6847632807502999,
+  "test_route_f1": 0.8219933576518569,
+  "train_time_s": 0.08852910995483398,
+  "cv_time_s": 0.6447417736053467,
+  "infer_ms_per_point": 0.0018103386514619895
+}
